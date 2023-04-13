@@ -1,0 +1,23 @@
+@font-face{
+	font-familiy: "Ubuntu-Italic";
+	src:local(Ubuntu-Italic);
+}
+html{ 
+	font-size: 16px;
+	font-family: "Ubuntu-Italic";
+	
+}
+#p1{
+	color: lightgrey;
+	text-align: center;
+}
+#p2{
+	color: grey;
+	text-align: center;
+}
+h3{
+	color: grey;
+}
+li{
+	color: green;
+}
