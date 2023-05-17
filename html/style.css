@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 .box{
-    width: 300px;
-    height: 100px;
-    background-color: darkcyan;
+    width: 340px;
+    height: 150px;
+    background-color: lightskyblue;
     border-radius: 10px;
 }
-.confirm{
-    size: 100px;
-    color: darkorchid;
-    border-radius: 40px;
-
+.button{
+    font-size: 12px;
+    text-align: center;
+    display: inline-flex ;
+    color: black;
+    border-radius: 8px;
+    padding: 15px 32px;
+    background-color: cornflowerblue;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    position: relative;
+    margin-left: 140px;
+    margin-right: -200px;
+}
+.button:hover{
+    background-color: lightgreen;
+    color: black;
 }
 
 html{
